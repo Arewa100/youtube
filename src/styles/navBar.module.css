@@ -1,5 +1,6 @@
-.navBar {
-    width: 1440px;
-    height: 20px;
-    background-color: red;
+.navbar {
+    width: 98vw;
+    height: 10vh;
+    margin: auto;
+    background-color: rgb(210, 173, 173);
 }
