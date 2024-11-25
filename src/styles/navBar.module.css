@@ -1,6 +1,47 @@
 .navbar {
-    width: 98vw;
-    height: 10vh;
+    width: 100%;
+    height: 20px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(210, 173, 173);
+    
+    line-height: 20px;
 }
+
+.buttonSize {
+    border-radius: 25px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: rgb(23, 30, 23);
+    padding: 0px;
+}
+
+.buttonSize p {
+    margin: auto;
+    background-color: white;
+    margin-top: 2px;
+    width: 7px;
+    height: .4px;
+    border: none;
+    
+}
+
+.buttonSize:hover {
+    background-color: grey;
+    opacity: 2;
+}
+
+.buttonSize .firstLine {
+    margin-top: 0px;
+}
+
+.buttonSize .secondLine {
+    margin-top: 2px;
+}
+
+/* .listButtonDiv {
+    
+} */
+

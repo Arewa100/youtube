@@ -4,8 +4,8 @@
 }
 
 .wrapper {
-    width: 99vw;
-    height: 99vh;
+    width: 99%;
+    height: 500px;
     margin: auto;
     background-color: rgb(210, 19, 51);
 }

@@ -6,7 +6,10 @@ const NavBar = ()=> {
         <>
         <div>
             <div className={style.navbar}>
-                <ListButton/>
+                <div className={style.listButtonDiv}>
+                    <ListButton style={[style.buttonSize, style.firstLine, style.secondLine]} type="submit"/>
+                    <img src="./src/assets/youtube.svg" alt=""/>
+                </div>
             </div>
         </div>
         </>
