@@ -9,7 +9,6 @@ const ListButton = (props)=> {
                 <p></p>
             </button>
         </div>
-        <div></div>
         </>
     )
 }

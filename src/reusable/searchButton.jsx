@@ -1,15 +1,10 @@
 import React from "react";
 
-const searchBarButton = (props)=> {
-    const {style , onClick, type , textContent ,}= props;
+const searchBar = ()=> {
     return(
-        
-        <button className="{style}" onClick={onClick}  type={type}>
-            {textContent}
-        </button>
-        
+        <>
+        </>
     )
 }
 
-export default searchBarButton ; 
-
+export default searchBar
