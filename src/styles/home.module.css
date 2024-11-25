@@ -7,5 +7,6 @@
     width: 99%;
     height: 500px;
     margin: auto;
-    background-color: rgb(210, 19, 51);
+    /* background-color: rgb(210, 19, 51); */
+    background-color: black;
 }

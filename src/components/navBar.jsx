@@ -7,8 +7,14 @@ const NavBar = ()=> {
         <div>
             <div className={style.navbar}>
                 <div className={style.listButtonDiv}>
-                    <ListButton style={[style.buttonSize, style.firstLine, style.secondLine]} type="submit"/>
-                    <img src="./src/assets/playlogo.png" alt=""/>
+                    <div className={style.listButton}>
+                        <ListButton style={[style.buttonSize, style.firstLine, style.secondLine]} type="submit"/>
+                    </div>
+                    <div className={style.logoDiv}>
+                        <img src="./src/assets/playlogo.png" alt=""/>
+                        <h1>YouTube<sup className={style.ng}>NG</sup></h1>
+
+                    </div>
                 </div>
             </div>
         </div>
