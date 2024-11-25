@@ -1,4 +1,4 @@
-import Home from "../components/home"
+import Home from '../reusable/searchButton';
 const routes = [
     {
         path: '/',
