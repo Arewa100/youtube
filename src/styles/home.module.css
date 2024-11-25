@@ -12,8 +12,9 @@
 }
 
 .wrapper .mainBodyContainer {
-    width: 1230px;
-    height: 500px;
-    background-color: red;
+    width: 660px;
+    height: 100%;
+    background-color: rgb(230, 207, 207);
     margin: auto;
+    /* margin-left: 40px; */
 }
