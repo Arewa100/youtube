@@ -1,5 +1,6 @@
 import style from '../styles/navBar.module.css'
 import ListButton from '../reusable/listButton';
+import searchBar from '../reusable/searchButton';
 
 const NavBar = ()=> {
     return(
@@ -13,11 +14,15 @@ const NavBar = ()=> {
                     <div className={style.logoDiv}>
                         <img src="./src/assets/playlogo.png" alt=""/>
                         <h1>YouTube<sup className={style.ng}>NG</sup></h1>
-
                     </div>
                 </div>
             </div>
         </div>
+
+        {/* <div>
+            <SearchButton style={style.press} type={type}/>
+        </div> */}
+
         </>
     )
 }

@@ -1,22 +1,19 @@
+import React from 'react';
 import style from '../styles/home.module.css'
 import NavBar from './navBar';
-
-
+import RoutesLink from '../List_of_linkButton/linkButtonList';
 const Home = ()=> {
-    return(
-       <>
+    return (
+      <>
         <div className={style.wrapper}>
-            <NavBar/>
+          <NavBar />
 
-            <div className={style.mainBodyContainer}>
-              <button><h1>MUSIC</h1></button>
-              
-            </div>
-
+          <div className={style.mainBodyContainer}>
+            <RoutesLink />
+          </div>
         </div>
-
-       </>
-    )
+      </>
+    );
 }
 
 

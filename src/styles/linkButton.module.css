@@ -1,0 +1,19 @@
+.ListButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #1905f2;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+    height: 1000px;
+}
+
+.ListButton:hover {
+    background-color: #0056b3; 
+}
+.LinkButton{
+    color: yellow;
+}
+
+
